@@ -1,0 +1,26 @@
+.resume-header {
+    display: flex;
+    justify-content: space-between; /* Push the image to the right */
+    align-items: center; /* Align content vertically in the middle */
+    padding: 10px;
+}
+
+#profile-picture {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px; /* Add some space between the text and the image */
+}
+
+.info {
+    flex-grow: 1; /* Take up remaining space on the left */
+}
+
+#name {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#contact-info {
+    margin: 5px 0;
+}

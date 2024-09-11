@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1 id="name">Muhammad Nadeem</h1>
+            <p id="contact-info">Email: mnadeemsodha@gmail.com | Phone: +92322521574</p>
+            <img src="file:///C:/Users/nadeem/Pictures/Saved%20Pictures/516c8ca3-9df9-4e2d-b355-17a1352b7ae0%20(2).jpg" width="150" length="150"> 
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <p id="summary">A highly motivated software developer with 5+ years of experience in building web applications...</p>
+            <button class="toggle-btn" data-section="summary">Toggle Summary</button>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <button class="toggle-btn" data-section="skills-list">Toggle Skills</button>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div id="experience">
+                <div class="experience-item">
+                    <h3>Senior Developer - Tech Company</h3>
+                    <p class="duration">Jan 2020 - Present</p>
+                </div>
+            </div>
+            <button class="toggle-btn" data-section="experience">Toggle Experience</button>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p id="education">Bachelor of Science in Computer Science</p>
+            <button class="toggle-btn" data-section="education">Toggle Education</button>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
